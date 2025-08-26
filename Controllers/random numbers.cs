@@ -29,7 +29,7 @@ namespace randomnumbers.Controllers
                     result, 
                     min = minValue, 
                     max = maxValue,
-                    operation = "random number"
+                    operation = "numero aleatorio"
                 });
             }
             catch (Exception ex)
