@@ -20,7 +20,7 @@ namespace randomnumbers.Controllers
 
                 if (minValue > maxValue)
                 {
-                    return BadRequest(new { error = "Bad Request", message = "min no puede ser mayor que max" });
+                    return BadRequest(new { error = "Peticion denegada", message = "min no puede ser mayor que max" });
                 }
 
                 int result = _random.Next(minValue, maxValue + 1);
